@@ -47,6 +47,7 @@ fun main(args: Array<String>) {
             break@loop
         }
         i++
+        Thread.sleep(1000)
     }
 }
 
